@@ -24,12 +24,13 @@ const App = () => {
           <Route path="/verify" element={<Verify />} />
           <Route path="/myorders" element={<MyOrders />} />
           <Route
-            path="/admin"
-            element={
-              <iframe
-                src="https://bhojanbuddy-admin.netlify.app"
-                style={{ width: "100%", height: "100vh", border: "none" }}
-              />
+          path="/admin"
+          element={
+            <iframe
+              src="https://bhojanbuddy-admin.netlify.app"
+              style={{ width: "100%", height: "100vh", border: "none" }}
+              title="Admin Panel"
+            />
             }
           />
         </Routes>
