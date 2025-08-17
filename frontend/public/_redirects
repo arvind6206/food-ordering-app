@@ -1,2 +1,2 @@
-/admin/*   https://your-admin.netlify.app/:splat   200
+/admin/*   https://bhojanbuddy-admin.netlify.app/:splat   200
 /*         /index.html   200
